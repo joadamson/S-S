@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+}
+
+.more{
+    width: 30%;
+    margin-left: 43.5%;
+    transition: .3s;
+}
+
+.one{
+    background: url('https://fashionmixteboutique.com/wp-content/uploads/2020/07/15460-scaled.jpg')top / cover no-repeat;
+    height: 55vh;
+}
+
+.two{
+    background: url('https://www.coty.com/sites/default/files/Coty,P20Lacoste,P20Contract,P20Renewal.jpg.pagespeed.ce.YnFdVrktPN.jpg')center / cover no-repeat;
+    height: 55vh;
+}
+
+.three{
+    background: url('https://alliswall.com/file/3894/1920x1200/16:9/beautiful-sunrise-.jpg') center / cover no-repeat;
+    height: 55vh;
+}
+
+.product{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.p-1{
+    background: url('https://i.pinimg.com/originals/36/91/26/3691263853f01569fd87d5411cbbbe38.jpg') center / cover no-repeat fixed;
+}
+
+.p-2{
+    background: url('https://vistapointe.net/images/fashion-1.jpg') center / cover no-repeat;
+}
+
+.gallery div div img{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: .7s;
+}
+
+.gallery div div img:hover{
+    transform: scale(2);
+    border-radius: 0px;
+}
+
+.photo{
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1050px){
+    .more a{
+        display: none;
+    }
+}
+
+.link_more{
+    color: #007bff;
+    border: 1px dashed #007bff;
+    transition: .3s;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.more:hover {
+    margin-left: 41%;
+}
+
+.block{
+    width: 33%;
+}
+
+.brand a{
+    color: #007bff;
+}
+
+.foot:hover{
+    color: #fff;
+}
+
+.link_more:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+}
