@@ -91,3 +91,23 @@ body{
     border: none;
     padding: 10px 20px;
 }
+
+@media screen and (max-width: 700px){
+    .box-1{
+        display: none;
+    }
+
+    .box-2{
+        display: none;
+    }
+
+    .box-3{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .photo{
+        width: 60%;
+    }
+}
